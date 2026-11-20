@@ -1,6 +1,6 @@
 # Sea Chart, a theme of the rpg-engine dashboard: navy ink and brass on chart paper by day, sea foam on the night watch, engraved capitals for the titles.
 name: Sea Chart
-version: 1.0.0
+version: 1.1.0
 fonts:
   - {family: IM Fell English SC, file: fonts/im-fell-english-sc/IMFellEnglishSC.ttf, weight: 400, license: fonts/im-fell-english-sc/OFL.txt}
   - {family: Crimson Pro, file: fonts/crimson-pro/CrimsonPro.ttf, weight: 200 900, license: fonts/crimson-pro/OFL.txt}
@@ -8,9 +8,15 @@ text-font: Crimson Pro
 title-font: IM Fell English SC
 story-font: Crimson Pro
 number-font: text
-corners: 4
+corners: 10
 titles: {case: as-written, spacing: 0.03}
-cards: {inner-line: dotted, ornament: images/compass.svg}
+cards: {inner-line: dotted, ornament: images/compass.svg, corner: scoop, texture: {picture: images/grain.svg}}
+buttons: {shape: pill}
+tabs: {shape: pill}
+shadows: soft
+papers: {documents: "#f3ead2", maps: "#f1e6c8"}
+portraits: {shape: round, frame: thick}
+style: style.css
 light:
   paper: "#dde7e4"
   panel: "#f8f6ec"
@@ -26,6 +32,10 @@ light:
   card-edge: "#aebfba"
   bar-edge: "#1b5f73"
   page-texture: {picture: images/chart-light.svg, fit: tile}
+  head-picture: {picture: images/coast-light.svg, fit: cover}
+  card-grain: "#9fb8b2"
+  shadow: "#13283a"
+  portrait-frame: "#b8862e"
 dark:
   paper: "#071a24"
   panel: "#0e2633"
@@ -40,3 +50,7 @@ dark:
   card-edge: "#2a5468"
   bar-edge: "#e3b04f"
   page-texture: {picture: images/chart-dark.svg, fit: tile}
+  head-picture: {picture: images/coast-dark.svg, fit: cover}
+  card-grain: "#2f5d73"
+  shadow: "#000000"
+  portrait-frame: "#bfa76e"

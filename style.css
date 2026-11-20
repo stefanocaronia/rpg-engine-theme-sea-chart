@@ -1,0 +1,4 @@
+/* Sea Chart's own rules, over the page's: what its theme.yaml cannot say. The neat line of a chart, a second thin rule outside each card's edge. */
+:is(.card, .group, .band, .rolls-card, .turns-card, .settings-group, .scene-now, .quest-card, .note-card, .save-card) {
+    box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--card-edge), var(--lift), var(--raise);
+}
