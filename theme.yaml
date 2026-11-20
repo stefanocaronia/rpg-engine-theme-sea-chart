@@ -1,6 +1,7 @@
 # Sea Chart, a theme of the rpg-engine dashboard: navy ink and brass on chart paper by day, sea foam on the night watch, engraved capitals for the titles.
 name: Sea Chart
 version: 1.1.0
+engine: "0.22"
 fonts:
   - {family: IM Fell English SC, file: fonts/im-fell-english-sc/IMFellEnglishSC.ttf, weight: 400, license: fonts/im-fell-english-sc/OFL.txt}
   - {family: Crimson Pro, file: fonts/crimson-pro/CrimsonPro.ttf, weight: 200 900, license: fonts/crimson-pro/OFL.txt}
