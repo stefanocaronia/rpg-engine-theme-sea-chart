@@ -1,0 +1,42 @@
+# Sea Chart, a theme of the rpg-engine dashboard: navy ink and brass on chart paper by day, sea foam on the night watch, engraved capitals for the titles.
+name: Sea Chart
+version: 1.0.0
+fonts:
+  - {family: IM Fell English SC, file: fonts/im-fell-english-sc/IMFellEnglishSC.ttf, weight: 400, license: fonts/im-fell-english-sc/OFL.txt}
+  - {family: Crimson Pro, file: fonts/crimson-pro/CrimsonPro.ttf, weight: 200 900, license: fonts/crimson-pro/OFL.txt}
+text-font: Crimson Pro
+title-font: IM Fell English SC
+story-font: Crimson Pro
+number-font: text
+corners: 4
+titles: {case: as-written, spacing: 0.03}
+cards: {inner-line: dotted, ornament: images/compass.svg}
+light:
+  paper: "#dde7e4"
+  panel: "#f8f6ec"
+  rule: "#b9c9c4"
+  ink: "#13283a"
+  muted: "#4e5d68"
+  accent: "#1b5f73"
+  gold: "#e2ae4c"
+  on-gold: "#0f1f2d"
+  gold-ink: "#7d5a14"
+  ally: "#2e6b45"
+  low: "#a8321e"
+  card-edge: "#aebfba"
+  bar-edge: "#1b5f73"
+  page-texture: {picture: images/chart-light.svg, fit: tile}
+dark:
+  paper: "#071a24"
+  panel: "#0e2633"
+  rule: "#23465a"
+  ink: "#e8efe9"
+  muted: "#a3b8bf"
+  accent: "#7fd0e0"
+  gold: "#e3b04f"
+  on-gold: "#0b1c26"
+  ally: "#8fd6a6"
+  low: "#ff8b72"
+  card-edge: "#2a5468"
+  bar-edge: "#e3b04f"
+  page-texture: {picture: images/chart-dark.svg, fit: tile}
